@@ -1,0 +1,95 @@
+/* unvisited link */
+a:link {
+    color: rgb(128, 0, 87);
+}
+
+/* visited link */
+a:visited {
+    color: rgb(78, 10, 180);
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 48px;
+    color: green;
+    padding: 16px;
+    font-size: 72px;
+}
+
+body {background-color:#00d5ff;}
+#p1 {background-color:#ff0000;}
+
+<div>
+div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+  </div>
+
+  p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+.div1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    }
+
+    .rcorners1 {
+        border-radius: 15px 50px 30px 5px;
+        background: #73AD21;
+        padding: 20px;
+        margin:20px;
+        width: 200px;
+        height: 150px;
+      }
+      
+      .rcorners2 {
+        border-radius: 15px 50px 30px;
+        background: #73AD21;
+        padding: 20px;
+        margin:20px;
+        width: 200px;
+        height: 150px;
+      }
+      
+      .rcorners3 {
+        border-radius: 15px / 50px;
+        background: #73AD21;
+        padding: 20px;
+        margin:20px;
+        width: 200px;
+        height: 150px;
+      }
+      
+      .rcorners4{
+        border-radius: 50%;
+        background: #73AD21;
+        padding: 20px;
+        margin:20px;
+        width: 200px;
+        height: 150px;
+      }
+    
